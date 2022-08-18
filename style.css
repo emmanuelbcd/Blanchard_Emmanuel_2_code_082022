@@ -1037,3 +1037,7 @@ h4 {
         text-align: center;
     }
 }
+
+.relative {
+    position: relative;
+}
