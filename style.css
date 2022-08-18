@@ -707,7 +707,7 @@ p {
 
 h2 {
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 700!important;
     line-height: 1.4em;
 }
 
