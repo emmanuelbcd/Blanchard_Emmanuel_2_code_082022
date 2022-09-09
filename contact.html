@@ -86,7 +86,7 @@
 					<h2>
 						Nous contacter
 					</h2>
-					<form class="form-size" id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+					<form class="form-size" id="form_1" novalidate>
 						<div class="form-group">
 							<label for="name">
 								Nom
@@ -97,13 +97,13 @@
 							<label for="email">
 								Adresse email
 							</label>
-							<input type="text" id="email" class="form-control" type="email" aria-label="Email" required />
+							<input id="email" class="form-control" type="email" aria-label="Email" required />
 						</div>
 						<div class="form-group">
 							<label for="known">
 								Comment nous avez-vous connu ?
 							</label>
-							<input type="text" id="known" class="form-control" aria-label="Comment nous avez-vous connu?" required id="input_504" />
+							<input type="text" id="known" class="form-control" aria-label="Comment nous avez-vous connu?" required />
 						</div>
 						<div class="form-group">
 							<label for="kownmessage">
@@ -115,18 +115,20 @@
 						</button>
 					</form>
 				</div>
-				<address class="col-sm-6">
+				<div class="col-sm-6">
 					<h2 class="text-center">
 						Nos coordonnées
 					</h2>
-					<p class="text-center">
-						<a href="mailo:contact@agencelapanthere.com">contact@agencelapanthere.com</a>
-						<br>
-						2 place Sathonay 69001 Lyon
-						<br>
-						Ouvert de 9h à 18h, du lundi au vendredi<br>
-					</p>
-				</address>
+					<address>
+						<p class="text-center">
+							<a href="mailo:contact@agencelapanthere.com">contact@agencelapanthere.com</a>
+							<br>
+							2 place Sathonay 69001 Lyon
+							<br>
+							Ouvert de 9h à 18h, du lundi au vendredi<br>
+						</p>
+					</address>
+				</div>
 			</div>
 		</div>
 	</div>
