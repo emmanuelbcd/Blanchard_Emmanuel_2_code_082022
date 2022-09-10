@@ -1049,3 +1049,11 @@ h4 {
 .relative {
     position: relative;
 }
+
+a:focus {
+    border: solid 2px black;
+}
+
+.touch-focus {
+    padding: 20px;
+}
