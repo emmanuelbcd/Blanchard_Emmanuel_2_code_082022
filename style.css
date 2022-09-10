@@ -1038,6 +1038,10 @@ h4 {
     .form-size {
         padding: 30px;
     }
+
+    a:focus {
+        padding: 20px;
+    }
 }
 
 @media (max-width: 767px) {
@@ -1055,5 +1059,5 @@ a:focus {
 }
 
 .touch-focus {
-    padding: 20px;
+    padding: 40px 10px 10px 10px;
 }
